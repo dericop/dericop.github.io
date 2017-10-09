@@ -178,6 +178,8 @@
 
   function updateGlobalYear(newYear){
 
+    $("#global-table").addClass("invisible");
+
     currentYear = newYear;
 
     data_yr = data.filter(function(d){ return d.key == currentYear; })[0];
