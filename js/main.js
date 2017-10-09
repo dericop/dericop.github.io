@@ -282,7 +282,6 @@ $(function(){
 				var legend = d3.legendColor()
 							   .labelFormat(d3.format(".2f"))							   
 							   .title("Exportaciones desde 2006")
-							   .titleWidth(100)
 							   .labelDelimiter("a")
 							   .labelFormat(",.15d")
 							   .labels(function(a){
