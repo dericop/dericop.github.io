@@ -189,6 +189,7 @@
     mapLayer.selectAll('path')
             .data(features)
             .transition()
+            .duration(1500)
             .style('fill', fillFn);
 
     yearSVGText.transition()
