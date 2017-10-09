@@ -178,7 +178,9 @@
 
   function updateGlobalYear(newYear){
 
+    clicked(null);
     $("#global-table").addClass("invisible");
+    $("#info-nombre").text("Haz click en un departamento")
 
     currentYear = newYear;
 
