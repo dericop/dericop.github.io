@@ -1,3 +1,2 @@
-# dericop.github.io
-
-Portafolio de proyectos e información general del desarrollador Daniel Estiven Rico Posada.
+# udat
+(Toma 1 de) Visualización de las cadenas productivas colombianas con open data

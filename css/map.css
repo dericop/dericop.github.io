@@ -1,0 +1,100 @@
+
+@import url(https://fonts.googleapis.com/css?family=Alegreya:200,300,400,500,600,700,700i,900);
+
+.background {
+  fill: transparent;
+  pointer-events: all;
+}
+
+.textYear{
+  font-family: 'Alegreya', serif;
+}
+
+.legendQuant{
+  font-family: 'Tahoma', serif;
+  font-size: 12px;
+}
+
+.map-layer {
+  fill: #fff;
+  stroke: #000;
+  stroke-width: 0.7;
+  stroke-opacity: 0.5;
+}
+
+.container-fluid{
+  font-family: 'Alegreya', serif;
+}
+
+.gral-container{
+ /*min-width: 1200px;*/
+}
+
+.map-container{
+  height: 100%;
+}
+
+.map-info-row{
+  height: 624px;
+}
+
+.map-info{
+  padding-top: 0.5rem;
+}
+
+.map-info p{
+  font-weight: 200;
+}
+
+#dep-name{
+  color:rgba(0, 0, 0, 0.6);
+  letter-spacing: 2px;
+  margin-top: 0.5em;
+}
+
+.table tr td{
+  border: none;
+  font-size: 16px;
+  color:rgba(0, 0, 0, 0.6);
+}
+
+.table tr th{
+  border: none;
+}
+
+.table{
+  margin-bottom: 0.5rem;
+}
+
+@media(min-width: 1441px){
+  #exports-row{
+    padding-top:2rem;
+  }
+}
+
+.table th[scope="row"]{
+  font-size: 16px;
+  font-weight: 200;
+  text-align: right;
+}
+
+.navbar-light .navbar-nav .nav-item.active{
+  background-color: #212529;
+  
+}
+
+.navbar-light .navbar-nav .nav-link{
+  font-weight: 300;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+  color: white;
+}
+
+.navbar-brand{
+  margin-right: 2em;
+}
+
+#imports-row{
+  padding-top:60px;
+}
