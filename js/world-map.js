@@ -179,9 +179,8 @@
   function updateGlobalYear(newYear){
 
     $("#global-table").addClass("invisible");
-    $("#info-nombre").text("Haz click en un país")
-    
-    
+    $("#info-nombre").text("Haz click en un país");    
+    clicked(null);
 
     currentYear = newYear;
 
@@ -195,7 +194,7 @@
     yearSVGText.transition()
                .text(currentYear);
 
-    clicked(null);
+    
 
   }
 
