@@ -95,10 +95,10 @@
         $("#global-table").addClass("invisible");
       } else {
         $("#info-nombre").text(dp[0].key);
-        $("#info-importacion").text(d3.format(",.15d")(dp[0].value.importacion));
-        $("#info-exportacion").text(d3.format(",.15d")(dp[0].value.exportacion));
+        $("#info-importacion").text(d3.format(",.15d")(dp[0].value.importacion*1000));
+        $("#info-exportacion").text(d3.format(",.15d")(dp[0].value.exportacion*1000));
         var diff = dp[0].value.exportacion - dp[0].value.importacion;
-        $("#info-diferencia").text(d3.format(",.15d")(diff));
+        $("#info-diferencia").text(d3.format(",.15d")(diff*1000));
         if(diff < 0){
           $("#dif-bg").css("background-color", "rgb(255,187,187)")
         } else if(diff > 0){
